@@ -1,0 +1,427 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --primary-color: #0E7886;
+    --secondary-color: #15BDB1;
+    --third-color: #FF757C;
+    --primary-font: "Inter", sans-serif;
+}
+
+body{
+    font-family: var(--primary-font);
+}
+
+/* Toggler button */
+.togglerbtn {
+    padding: 10px 20px;
+    background-color: var(--primary-color);
+    color: white;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Header component */
+header {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px;
+}
+
+.header-contact {
+    border-bottom: 1px solid gray;
+    padding: 8px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 18px;
+}
+
+.header-contact img {
+    height: 15px;
+    width: 15px;
+}
+
+.header-contact a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.header-contact a span {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.header-main {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.header-logo {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.header-logo img {
+    width: 80px;
+    height: 80px;
+}
+
+.header-menu ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.header-menu ul .navlink {
+    text-decoration: none;
+
+}
+
+.header-menu ul li {
+    color: black;
+    list-style: none;
+    font-size: 18px;
+    padding: 8px 16px;
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+.header-menu ul .navlink li:hover {
+    background-color: var(--secondary-color);
+    color: white;
+    transition: all ease-in-out 0.2s;
+}
+
+/* Herosection component */
+.herosection img {
+    width: 100%;
+    height: 500px;
+}
+
+/* Home page */
+.card-section h3 {
+    font-size: 25px;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+/* Card component */
+.card {
+    display: flex;
+    width: 300px;
+    height: 400px;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 8px;
+    box-shadow: 4px 2px 15px 0 var(--primary-color);
+    font-size: 18px;
+
+}
+
+.card-img img {
+    height: 250px;
+    width: 300px;
+}
+
+.card-title {
+    padding: 8px;
+
+}
+
+.card-title h4 {
+    text-align: center;
+
+
+}
+
+.card-title p {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.card-btn button {
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    width: 300px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.card:hover {
+    transform: scale(0.9);
+    transition: all linear 0.3s;
+}
+
+/* Footer component */
+footer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    background-color: var(--secondary-color);
+}
+
+.foooter-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-top-left img {
+    height: 60px;
+    width: 60px;
+}
+
+.footer-top-left h1 {
+    font-size: 18px;
+}
+
+.footer-top-right ul {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+
+}
+
+.footer-top-right ul li {
+    list-style: none;
+}
+
+.footer-top-right ul .navlink {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.footer-top-mid {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-top-mid .icon {
+    height: 30px;
+    width: 30px;
+
+}
+
+.footer-copyright {
+    background-color: white;
+    color: black;
+    padding: 10px;
+}
+
+.footer-copyright p {
+    text-align: center;
+}
+
+/* DetailedCard component */
+.detailedcard {
+    width: 900px;
+    height: 300px;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.detailedcard-img img {
+    height: 300px;
+    width: 450px;
+
+}
+
+.detailedcardtext {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 30px;
+}
+
+/* Detailedcard-secton */
+.detailedcard-section {
+    background: url('/images/travelling.jpg') center center / cover no-repeat fixed;
+    padding-top: 25px;
+    z-index: 1;
+}
+
+.detailedcard-section h3 {
+    text-align: center;
+    font-size: 25px;
+
+}
+
+.detailedcards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding-top: 50px;
+}
+
+.pagenation{
+    /* background-color: white; */
+    width: 200px;
+    padding: 10px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+.pagenation button{
+    font-size: 18px;
+    padding: 3px 6px;
+}
+
+/* Contact section */
+.contact-section{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:center;
+    padding: 20px;
+}
+
+.form-body{
+    box-shadow: 2px 4px 6px var(--primary-color);
+    border-radius: 10px;
+    padding: 10px 30px;
+    width: 600px;
+}
+
+.form-body form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    
+}
+
+.form-body form input{
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    width: 500px;
+}
+
+.form-body form textarea{
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    width: 500px;
+}
+
+/* Responsive */
+@media screen and (max-width: 784px) {
+
+    header {
+        flex-direction: column;
+        gap: 10px;
+        padding: 0;
+    }
+
+    .header-main {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .header-menu ul {
+        flex-direction: row;
+        gap: 5px;
+    }
+
+    .cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 90%;
+        height: auto;
+        gap: 20px;
+    }
+
+    .card-img img {
+        width: 100%;
+        height: 400px;;
+    }
+
+    .card-btn button {
+        width: 100%;
+    }
+
+    .detailedcard {
+        flex-direction: column;
+        width: 90%;
+        height: auto;
+    }
+
+    .detailedcard-img img {
+        width: 100%;
+        height: auto;
+    }
+
+    .form-body {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .form-body form input,
+    .form-body form textarea {
+        width: 90%;
+    }
+
+    footer {
+        gap: 20px;
+    }
+
+    .foooter-top {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .footer-top-right ul {
+        flex-direction: row;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .footer-top-mid {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    
+}

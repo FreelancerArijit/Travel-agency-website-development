@@ -1,0 +1,204 @@
+  {
+    "tours": [
+      {
+        "id": 1,
+        "name": "Golden Triangle Tour",
+        "description": "Delhi, Agra, and Jaipur — a classic introduction to India’s heritage.",
+        "image": "./images/delhi.jpg",
+        "price": 15000,
+        "duration": "5 Days / 4 Nights",
+        "location": ["Delhi", "Agra", "Jaipur"],
+        "highlights": ["Taj Mahal", "Amber Fort", "Red Fort"]
+      },
+      {
+        "id": 2,
+        "name": "Kerala Backwaters Cruise",
+        "description": "Relax on a houseboat in the tranquil backwaters.",
+        "image": "./images/kerala.jpg",
+        "price": 18000,
+        "duration": "6 Days / 5 Nights",
+        "location": ["Alleppey", "Kumarakom"],
+        "highlights": ["Houseboat stay", "Local cuisine", "Kathakali dance"]
+      },
+      {
+        "id": 3,
+        "name": "Goa Beach Leisure",
+        "description": "Sunbathe, party, and explore Portuguese churches.",
+        "image": "./images/goa.jpg",
+        "price": 12000,
+        "duration": "4 Days / 3 Nights",
+        "location": ["North Goa", "South Goa"],
+        "highlights": ["Water sports", "Night markets", "Beach parties"]
+      },
+      {
+        "id": 4,
+        "name": "Himalayan Trekking Adventure",
+        "description": "Trek through Himachal’s picturesque landscapes.",
+        "image": "./images/himalaya.jpg",
+        "price": 25000,
+        "duration": "7 Days / 6 Nights",
+        "location": ["Manali", "Kasol"],
+        "highlights": ["Trekking", "Campfire", "Snow points"]
+      },
+      {
+        "id": 5,
+        "name": "Rajasthan Desert Safari",
+        "description": "Camel rides and desert camping under starry skies.",
+        "image": "./images/rajasthan.jpg",
+        "price": 19000,
+        "duration": "6 Days / 5 Nights",
+        "location": ["Jodhpur", "Jaisalmer"],
+        "highlights": ["Camel safari", "Folk music", "Sand dunes"]
+      },
+      {
+        "id": 6,
+        "name": "Kashmir Paradise Tour",
+        "description": "Stay on houseboats and explore flower gardens.",
+        "image": "./images/kashmir2.jpg",
+        "price": 22000,
+        "duration": "5 Days / 4 Nights",
+        "location": ["Srinagar", "Gulmarg"],
+        "highlights": ["Shikara ride", "Mughal gardens", "Snow activities"]
+      },
+      {
+        "id": 7,
+        "name": "Andaman Islands Escape",
+        "description": "Crystal clear waters, snorkeling, and sun-kissed beaches.",
+        "image": "./images/andaman.jpg",
+        "price": 30000,
+        "duration": "6 Days / 5 Nights",
+        "location": ["Port Blair", "Havelock"],
+        "highlights": ["Radhanagar beach", "Scuba diving", "Cellular Jail"]
+      },
+      {
+        "id": 8,
+        "name": "Leh-Ladakh Road Trip",
+        "description": "Thrilling bike rides through rugged terrains.",
+        "image": "./images/ladakh.jpg",
+        "price": 35000,
+        "duration": "8 Days / 7 Nights",
+        "location": ["Leh", "Nubra Valley", "Pangong"],
+        "highlights": ["Khardung La pass", "Double-humped camels", "Monasteries"]
+      },
+      {
+        "id": 9,
+        "name": "Sikkim & Darjeeling",
+        "description": "Tea gardens and Himalayan vistas.",
+        "image": "./images/darjeeling.jpg",
+        "price": 18000,
+        "duration": "6 Days / 5 Nights",
+        "location": ["Gangtok", "Darjeeling"],
+        "highlights": ["Toy train", "Tiger Hill sunrise", "Rumtek monastery"]
+      },
+      {
+        "id": 10,
+        "name": "Rann of Kutch Festival",
+        "description": "Vibrant white desert festival with folk dance.",
+        "image": "./images/kutch.jpg",
+        "price": 16000,
+        "duration": "4 Days / 3 Nights",
+        "location": ["Bhuj", "Kutch"],
+        "highlights": ["Rann Utsav", "Handicrafts", "Traditional food"]
+      },
+      {
+        "id": 11,
+        "name": "Tamil Nadu Temple Trail",
+        "description": "Magnificent Dravidian temples and heritage sites.",
+        "image": "./images/madurai.jpg",
+        "price": 17000,
+        "duration": "5 Days / 4 Nights",
+        "location": ["Madurai", "Rameswaram"],
+        "highlights": ["Meenakshi temple", "Pamban bridge", "Local rituals"]
+      },
+      {
+        "id": 12,
+        "name": "Meghalaya Caves & Waterfalls",
+        "description": "Explore the lush landscapes and living root bridges.",
+        "image": "./images/assam.jpg",
+        "price": 19000,
+        "duration": "6 Days / 5 Nights",
+        "location": ["Shillong", "Cherrapunji"],
+        "highlights": ["Nohkalikai Falls", "Cave exploration", "Root bridges"]
+      },
+      {
+        "id": 13,
+        "name": "Varanasi Spiritual Tour",
+        "description": "Ganga aarti and ancient temples of Varanasi.",
+        "image": "./images/banaras.jpg",
+        "price": 11000,
+        "duration": "3 Days / 2 Nights",
+        "location": ["Varanasi"],
+        "highlights": ["Boat ride", "Kashi Vishwanath", "Evening aarti"]
+      },
+      {
+        "id": 14,
+        "name": "Mysore & Coorg",
+        "description": "Palaces, coffee estates, and cool hills.",
+        "image": "./images/mysore.jpg",
+        "price": 15000,
+        "duration": "5 Days / 4 Nights",
+        "location": ["Mysore", "Coorg"],
+        "highlights": ["Mysore Palace", "Coffee plantations", "Abbey Falls"]
+      },
+      {
+        "id": 15,
+        "name": "Odisha Heritage Circuit",
+        "description": "Explore Jagannath Puri, Konark, and Bhubaneswar.",
+        "image": "./images/puri.jpg",
+        "price": 14000,
+        "duration": "5 Days / 4 Nights",
+        "location": ["Puri", "Konark"],
+        "highlights": ["Sun Temple", "Chilika lake", "Jagannath Temple"]
+      },
+      {
+        "id": 16,
+        "name": "Amritsar & Wagah Border",
+        "description": "Visit the Golden Temple and witness the retreat ceremony.",
+        "image": "./images/amritsar.jpg",
+        "price": 10000,
+        "duration": "3 Days / 2 Nights",
+        "location": ["Amritsar"],
+        "highlights": ["Golden Temple", "Jallianwala Bagh", "Wagah parade"]
+      },
+      {
+        "id": 17,
+        "name": "Ajanta & Ellora Caves",
+        "description": "Marvel at the rock-cut caves and ancient paintings.",
+        "image": "./images/ajanta.jpg",
+        "price": 13000,
+        "duration": "4 Days / 3 Nights",
+        "location": ["Aurangabad"],
+        "highlights": ["Ajanta caves", "Ellora caves", "Bibi ka Maqbara"]
+      },
+      {
+        "id": 18,
+        "name": "Mahabalipuram & Pondicherry",
+        "description": "Beaches, French streets, and stone sculptures.",
+        "image": "./images/madurai2.jpg",
+        "price": 16000,
+        "duration": "5 Days / 4 Nights",
+        "location": ["Mahabalipuram", "Pondicherry"],
+        "highlights": ["Shore temple", "White town", "Auroville"]
+      },
+      {
+        "id": 19,
+        "name": "Delhi Agra Mathura Vrindavan",
+        "description": "Spiritual and historical highlights in North India.",
+        "image": "./images/mathura.jpg",
+        "price": 14000,
+        "duration": "5 Days / 4 Nights",
+        "location": ["Delhi", "Agra", "Mathura"],
+        "highlights": ["ISKCON temple", "Taj Mahal", "Prem Mandir"]
+      },
+      {
+        "id": 20,
+        "name": "Madhya Pradesh Wildlife Safari",
+        "description": "Spot tigers in the wild and explore dense forests.",
+        "image": "./images/madhyapradesh.jpg",
+        "price": 20000,
+        "duration": "6 Days / 5 Nights",
+        "location": ["Kanha", "Bandhavgarh"],
+        "highlights": ["Jungle safari", "Tribal dance", "Nature walks"]
+      }
+    ]
+  }
